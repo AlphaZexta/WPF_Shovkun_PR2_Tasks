@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Menu Background="WhiteSmoke" BorderBrush="SeaGreen" BorderThickness="1">
+            <MenuItem Header="_Файл">
+                <MenuItem Header="_Открыть"/>
+                <MenuItem Header="_Сохранить"/>
+                <MenuItem Header="_Редактировать"/>
+                <MenuItem Header="_Удалить"/>
+                <MenuItem Header="_Импортировать..."/>
+                <MenuItem Header="_Экспортировать..."/>
+            </MenuItem>
+            <MenuItem Header="_О программе">
+                <MenuItem Header="_Лицензионное соглашение"/>
+                <MenuItem Header="_Политика конфидециальности"/>
+            </MenuItem>
+        </Menu>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="0,32,0,0" VerticalAlignment="Top" Click="Button_Click"/>
     </Grid>
 </Window>
