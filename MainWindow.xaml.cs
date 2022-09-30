@@ -24,5 +24,10 @@ namespace WPF_Shovkun_PR2_Tasks
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            Window.Close(MainWindow);
+        }
     }
 }
