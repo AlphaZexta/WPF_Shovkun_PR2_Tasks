@@ -27,7 +27,27 @@ namespace WPF_Shovkun_PR2_Tasks
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            Window.Close(MainWindow);
+            this.Close();
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Версия программного продукта: 1.0");
+        }
+
+        private void R1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Background = Brushes.Red;
+        }
+
+        private void G2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Background = Brushes.Green;
+        }
+
+        private void B3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Background = Brushes.Blue;
         }
     }
 }

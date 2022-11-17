@@ -12,13 +12,18 @@
                 <MenuItem Header="_Открыть"/>
                 <MenuItem Header="_Сохранить"/>
                 <MenuItem Header="_Редактировать"/>
-                <MenuItem Header="_Изменить цвет фона"/>
+                <MenuItem Header="_Изменить цвет фона">
+                    <MenuItem x:Name="R1" Header="RED" Click="R1_Click"/>
+                    <MenuItem x:Name="G2" Header="GREEN" Click="G2_Click"/>
+                    <MenuItem x:Name="B3" Header="BLUE" Click="B3_Click"/>
+                </MenuItem>
                 <MenuItem Header="_Удалить"/>
                 <MenuItem Header="_Импортировать..."/>
                 <MenuItem Header="_Экспортировать..."/>
                 <MenuItem Header="_Закрыть" Click="MenuItem_Click"/>
             </MenuItem>
             <MenuItem Header="_О программе">
+                <MenuItem Header="_Сведения о версии приложения" Click="MenuItem_Click_2"/>
                 <MenuItem Header="_Лицензионное соглашение"/>
                 <MenuItem Header="_Политика конфидециальности"/>
                 <MenuItem Header="_Информация о разработчике"/>
